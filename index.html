@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+    <title>Update Css Variables With js </title>
+</head>
+<body>
+    <div class="container">
+        <h1>Update CSS Variables Width <span>JS</span></h1>
+        <label for="spacing" class="label">Spacing:</label>
+        <input type="range" name="spacing" min="20" max="100" value="10" data-sizing="px" class="slider">
+
+        <label for="blur" class="label">Blur:</label>
+        <input type="range" name="blur" min="0" max="30" value="10" class="blur" data-sizing="px">
+
+        <label for="base" class="label">Base Color:</label>
+        <input type="color" name="base" value="#ffc600" class="color">
+    </div>
+    <div class="backgound">
+        <img src="image/newyork.jpg" alt="" class="photo">
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
